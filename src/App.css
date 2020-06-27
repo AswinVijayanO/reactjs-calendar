@@ -1,38 +1,102 @@
 .App {
   text-align: center;
+  transition-duration: 800ms;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.currentDatePanel{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  align-items:baseline; 
+  width:40vw;
+  margin:auto;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.fixedHeader{
+  margin: auto;
+  width: -webkit-fill-available;
+  background-color: #fff;
+  box-shadow: 0 2px 10px #ddd;
+  z-index: 2;
+  padding-top: 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+a{
+  text-decoration: none;
+}
+a:active{
+  text-decoration: none;
+}
+a:visited{
+  text-decoration: none;
+}
+select{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: #ebebebb7;
+  max-width:700px;
+  padding: 10px 20px;
+  /* border: 1px solid #eee; */
+  border-radius: 6px;
+  border:none;
+  outline: none;
+  margin: 20px 30px;
+  font-family: titlefont;
+  font-size: 20px;
+  color: #888;
+}
+input{
+  background-color: #ebebebb7;
+  width: 10vw;
+  max-width:100px;
+  padding: 10px 20px;
+  border: none;
+  border-radius:6px;
+  margin: 20px 5px;
+  font-family: titlefont;
+  font-size: 20px;
+  color: rgba(68, 68, 68, 0.527);
+}
+.picker{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-evenly;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 28vw;
+  margin: auto;
+}
+.addSub{
+  height:30px;
+  width:30px;
+  padding: auto;
+  color:rgba(48, 48, 48, 0.438);
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  font-size: 24px;
+}
+.addSub:hover{
+  color:rgba(119, 119, 119, 0.548);
+}
+button:hover,
+button:focus {
+    outline: 1px solid rgba(255, 255, 255, 0);
+    outline-offset: -4px;
+    transition-duration: 00ms;
+    border: none;
+
 }
 
-.App-link {
-  color: #61dafb;
+button:active {
+    outline: 1px solid rgba(255, 255, 255, 0);
+    outline-offset: -4px;
+    transition-duration: 00ms;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:active {
+    transform: scale(0.99);
+}
+a{
+  color:#999;
+}
+.header{
+  max-width: 50vw;
+  margin: auto;
 }

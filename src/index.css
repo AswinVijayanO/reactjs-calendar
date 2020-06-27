@@ -1,6 +1,18 @@
+@font-face { 
+  font-family: "titlefont2"; 
+  src: url("./fonts/NeueHaasDisplay-Roman.ttf"); 
+}
+@font-face { 
+  font-family: "boldfont"; 
+  src: url("./fonts/NeueHaasDisplay-Bold.ttf"); 
+}
+@font-face { 
+  font-family: "titlefont"; 
+  src: url("./fonts/CircularStd-Book.ttf"); 
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: titlefont,-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
