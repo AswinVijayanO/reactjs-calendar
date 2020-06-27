@@ -1,4 +1,9 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Screenshots
+
+# Desktop view
+<img src="https://raw.githubusercontent.com/AswinVijayanO/reactjs-calendar/master/Screenshots/desktopView.png" width="1000" />
+# Mobile view
+<img src="https://raw.githubusercontent.com/AswinVijayanO/reactjs-calendar/master/Screenshots/desktopView.png" width="800" />
 
 ## Available Scripts
 
