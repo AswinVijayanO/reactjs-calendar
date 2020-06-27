@@ -1,9 +1,9 @@
 ## Screenshots
 
-# Desktop view
-<img src="https://raw.githubusercontent.com/AswinVijayanO/reactjs-calendar/master/Screenshots/desktopView.png" width="1000" />
-# Mobile view
-<img src="https://raw.githubusercontent.com/AswinVijayanO/reactjs-calendar/master/Screenshots/desktopView.png" width="800" />
+###  Desktop view
+<img src="https://raw.githubusercontent.com/AswinVijayanO/reactjs-calendar/master/Screenshots/desktopView.png" width="700" />
+###  Mobile view
+<img src="https://raw.githubusercontent.com/AswinVijayanO/reactjs-calendar/master/Screenshots/desktopView.png" width="700" />
 
 ## Available Scripts
 
